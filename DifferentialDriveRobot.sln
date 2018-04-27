@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentialDriveRobotUI", "DifferentialDriveRobotUI\DifferentialDriveRobotUI.csproj", "{A0226D0A-9305-4C56-B604-5EE042DEAC4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentialDriveRobot", "DifferentialDriveRobot\DifferentialDriveRobot.csproj", "{9BF36571-1287-4407-B7FE-5C07966FF67A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0226D0A-9305-4C56-B604-5EE042DEAC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0226D0A-9305-4C56-B604-5EE042DEAC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0226D0A-9305-4C56-B604-5EE042DEAC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0226D0A-9305-4C56-B604-5EE042DEAC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF36571-1287-4407-B7FE-5C07966FF67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF36571-1287-4407-B7FE-5C07966FF67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF36571-1287-4407-B7FE-5C07966FF67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF36571-1287-4407-B7FE-5C07966FF67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
