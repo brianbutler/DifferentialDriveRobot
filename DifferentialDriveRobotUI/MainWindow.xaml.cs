@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DifferentialDriveRobot;
 
 namespace DifferentialDriveRobotUI
 {
@@ -23,6 +24,8 @@ namespace DifferentialDriveRobotUI
         public MainWindow()
         {
             InitializeComponent();
+
+            SimulatedRobotModel robot = new SimulatedRobotModel(0.1, 0.2);
         }
     }
 }

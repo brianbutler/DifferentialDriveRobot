@@ -112,5 +112,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DifferentialDriveRobot\DifferentialDriveRobot.csproj">
+      <Project>{9bf36571-1287-4407-b7fe-5c07966ff67a}</Project>
+      <Name>DifferentialDriveRobot</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
