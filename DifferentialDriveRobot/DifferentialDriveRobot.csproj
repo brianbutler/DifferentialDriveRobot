@@ -41,9 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IRobotModel.cs" />
+    <Compile Include="IStateErrorController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RobotState2D.cs" />
+    <Compile Include="State2D.cs" />
     <Compile Include="SimulatedRobotModel.cs" />
+    <Compile Include="StateErrorController.cs" />
+    <Compile Include="WheelCommands.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
